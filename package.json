@@ -1,0 +1,24 @@
+{
+  "name": "poker-game",
+  "version": "1.0.0",
+  "description": "poker game",
+  "main": "dist/src/run.js",
+  "scripts": {
+    "start": "tsc && node dist/src/run.js",
+    "test": "jest",
+    "coverage": "jest --coverage"
+  },
+  "author": "samassango",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^26.0.23",
+    "jest": "^27.0.4",
+    "ts-jest": "^27.0.3",
+    "tslint": "^5.12.1",
+    "typescript": "^3.3.3"
+  },
+  "dependencies": {
+    "card-dealer": "^2.0.0",
+    "pokersolver": "^2.1.4"
+  }
+}
